@@ -1,0 +1,9 @@
+requests
+requests-cache
+python-dotenv
+pandas
+pyarrow
+pytest
+requests-mock
+rapidfuzz
+pulp 
