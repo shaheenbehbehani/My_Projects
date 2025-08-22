@@ -1,3 +1,38 @@
+Fantasy Premier League Optimizer
+GitHub Repo: shaheenbehbehani/My_Projects
+Report: Attached in repo (FPL_Optimizer/fpl_optimizer_report.pdf)
+Project Overview
+Developed a Fantasy Premier League (FPL) optimization engine that applies data science and mathematical programming to build squads under official FPL rules. The system integrates machine learning projections with integer linear programming (ILP) to consistently outperform traditional fantasy football strategies.
+Key Objectives
+Replace gut-driven decisions with data-driven optimization
+Ensure full compliance with FPL rules (budget, squad size, quotas, club caps)
+Validate optimizer performance through stress tests and historical benchmarks
+Produce a LinkedIn-ready report and GitHub repository for professional showcase
+Technical Approach
+Data Engineering: Consolidated player stats, fixtures, and team data
+Feature Engineering: Built expected points (xP) models using rolling averages and fixture difficulty
+Optimization Engine: ILP solver with FPL constraints (budget, positions, max 3 per club, formations)
+Evaluation Framework: Baseline comparisons, budget sensitivity, club cap tests, determinism validation
+Historical Benchmarking: Backtested projections vs. actual gameweek results (MAE, RMSE, calibration)
+Results
+Optimal squad consistently beat baselines (Template, Random, Naïve strategies)
+Achieved higher projected points while staying within budget and rules
+Stress tests confirmed optimizer robustness under varying conditions
+Historical validation showed strong alignment between predicted and actual outcomes
+Example Optimal XI (4-4-2)
+GK: Guglielmo Vicario (Spurs)
+DEF: Saliba (Arsenal), Ballard (Sunderland), Gudmundsson (Leeds), Struijk (Leeds)
+MID: Kudus (Spurs), O’Riley (Brighton), Poveda Ocampo (Sunderland), Stach (Leeds)
+FWD: Richarlison (Spurs, Captain), Chris Wood (Forest, Vice Captain)
+Tools & Tech
+Python, Pandas, NumPy, PuLP (ILP), ReportLab, GitHub, Makefile automation
+Impact & Takeaways
+Demonstrated how mathematical optimization can outperform intuition in sports analytics
+Created a scalable framework applicable to other fantasy sports, betting models, and financial decision optimization
+Produced a polished, professional report and GitHub repo as portfolio assets
+
+
+
 # CSV/TSV Data Profiler
 
 A Python script that analyzes CSV and TSV files using Polars and generates comprehensive data quality reports.
