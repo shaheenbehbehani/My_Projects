@@ -45,7 +45,7 @@ ArcGIS Pro, Spatial Join, Geocoding, Spatial Regression
 ## 📬 Let’s Connect
 - [LinkedIn](https://linkedin.com/in/shaheenbehbehani)  
 - [GitHub](https://github.com/shaheenbehbehani)  
-- 📧 shaheen.behbehani@gmail.com  
+- 📧 shaheenbehbehani11b1@gmail.com  
 
 
 
