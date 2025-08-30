@@ -1,36 +1,53 @@
+# 👋 Hi, I'm Shaheen
+
 # 📂 My Projects
 
-Welcome to my personal project portfolio!  
-This repository contains a collection of data analytics, machine learning, and visualization projects I’ve completed as part of my academic, professional, and independent work.
+I use this space to share projects where I explore data, build models, and create visual stories.  
+My goal is to keep learning and applying analytics to real problems, whether in business, research, or everyday life.  
+
+---
+
+## 🌱 About Me
+- 🎓 Master’s in Business Analytics at Loyola Marymount University, **graduated August 2025**  
+- 📊 Background in data analytics, predictive modeling, and visualization  
+- ⚡ I enjoy exploring how data shapes startups, business strategy, and sports  
+- 🌍 Based in Los Angeles, California 
 
 ---
 
 ## 🛠️ Skills & Tools
 **Programming & Analytics**  
-Python (Pandas, NumPy, Scikit-Learn, XGBoost, Matplotlib, Seaborn, Statsmodels, Polars)  
-R (dplyr, ggplot2, lattice, car, beanplot, survival, ROCR)  
-SQL (MySQL, PostgreSQL, Google BigQuery)  
+Python (Pandas, NumPy, Scikit-Learn, XGBoost, Polars)  
+R (dplyr, ggplot2, lattice, survival)  
+SQL (MySQL, PostgreSQL, BigQuery)  
 
 **Visualization**  
-Tableau, Power BI, Matplotlib, Plotly, Seaborn  
+Tableau, Power BI, Matplotlib, Seaborn, Plotly  
 
-**Machine Learning & AI**  
-XGBoost, Random Forest, Gradient Boosting, Neural Networks, PCA, KMeans, SHAP Analysis  
+**Machine Learning**  
+XGBoost, Random Forest, Gradient Boosting, Neural Networks, PCA, KMeans, SHAP  
 
-**Data Engineering & ETL**  
-Tableau Prep, Alteryx, Python ETL Pipelines, CSV-to-SQL workflows, Dask for large datasets  
+**Data Engineering**  
+Tableau Prep, Alteryx, ETL pipelines, Dask for large datasets  
 
 **Geospatial Analysis**  
-ArcGIS Pro, Spatial Join, Geocoding, Regression Analysis on spatial data  
-
-**Other Tools**  
-Excel (Advanced Formulas, Power Query, PivotTables), Git/GitHub, JupyterLab, VS Code
+ArcGIS Pro, Spatial Join, Geocoding, Spatial Regression  
 
 ---
 
-## 📬 Contact
-- **LinkedIn:** [Shaheen Behbehani](https://www.linkedin.com/in/shaheen-behbehani/)
-- **Email:** shaheenbehbehani11b1@gmail.com  
+## ✨ What You’ll Find Here
+- A mix of academic, professional, and personal projects  
+- Clean and reproducible code  
+- Visualizations and insights that highlight my approach to solving problems  
+
+---
+
+## 📬 Let’s Connect
+- [LinkedIn](https://linkedin.com/in/shaheenbehbehani)  
+- [GitHub](https://github.com/shaheenbehbehani)  
+- 📧 shaheen.behbehani@gmail.com  
+
+
 
 
 ---
