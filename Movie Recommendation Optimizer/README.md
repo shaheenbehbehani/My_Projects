@@ -161,6 +161,27 @@ The `report/` folder contains:
 
 This project is part of a portfolio demonstration and is available for educational purposes.
 
+## 🚀 Run Locally
+
+To run the Streamlit app locally:
+
+```bash
+streamlit run app/main.py
+```
+
+The app will be available at `http://localhost:8501`
+
+## ☁️ Deploy on Streamlit Cloud
+
+1. Push this repository to GitHub
+2. Connect your GitHub repo to Streamlit Cloud
+3. Set the main file path to `app/main.py`
+4. Add any required secrets through the Streamlit Cloud UI (do not commit secrets to the repository)
+
+## 🔐 Secrets Management
+
+**Important**: Never commit `.streamlit/secrets.toml` to the repository. Add secrets only through the Streamlit Cloud UI when deploying.
+
 ## 👨‍💻 Author
 
 **Shaheen Behbehani**  
