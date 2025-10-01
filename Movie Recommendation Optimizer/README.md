@@ -1,6 +1,12 @@
-# Netflix Movie Recommendation Optimizer
+# 🎬 Movie Recommendation Optimizer
 
 A comprehensive hybrid recommendation system that combines content-based filtering with collaborative filtering to deliver personalized movie recommendations at scale.
+
+## 🌐 Live Application
+
+**🚀 [Try the Live App](https://myprojects-7bm7pnq5hyjqyln9gpax6t.streamlit.app)**
+
+The application is now live and ready to use! Explore interactive movie recommendations, case studies, performance metrics, and detailed project documentation.
 
 ## 🎯 Project Overview
 
@@ -22,6 +28,14 @@ This project implements a production-ready movie recommendation system with the 
 
 ```
 Movie Recommendation Optimizer/
+├── app/                    # 🚀 Live Streamlit Application
+│   ├── main.py            # Main entrypoint
+│   ├── pages/             # Multi-page navigation
+│   │   ├── 01_📚_Case_Studies.py
+│   │   ├── 02_📊_Evaluation.py
+│   │   └── 03_ℹ️_About.py
+│   ├── utils/             # Layout and constants
+│   └── assets/            # Static assets
 ├── visualizations/          # Step 5.1 professional visualizations
 │   ├── scoreboard_k10.png
 │   ├── lift_hybrid.png
@@ -44,17 +58,20 @@ Movie Recommendation Optimizer/
 │   ├── step4_case_studies.md
 │   ├── policy_step4_findings.md
 │   └── step5_visuals.md
-└── code/                   # Implementation code
-    ├── scripts/
-    │   ├── text/           # Text processing scripts
-    │   ├── crew/           # Crew feature extraction
-    │   ├── numeric/        # Numeric feature processing
-    │   ├── eval/           # Evaluation scripts
-    │   ├── serve/          # Serving scripts
-    │   └── edgecases/      # Edge case testing
-    ├── configs/            # Configuration files
-    ├── Makefile
-    └── requirements.txt
+├── code/                   # Implementation code
+│   ├── scripts/
+│   │   ├── text/           # Text processing scripts
+│   │   ├── crew/           # Crew feature extraction
+│   │   ├── numeric/        # Numeric feature processing
+│   │   ├── eval/           # Evaluation scripts
+│   │   ├── serve/          # Serving scripts
+│   │   └── edgecases/      # Edge case testing
+│   ├── configs/            # Configuration files
+│   ├── Makefile
+│   └── requirements.txt
+├── docs/                   # Documentation and screenshots
+├── requirements.txt        # App dependencies
+└── README.md              # This file
 ```
 
 ## 🚀 Quick Start
@@ -127,6 +144,19 @@ Movie Recommendation Optimizer/
 - **MMR λ**: 0.0 → 0.7 (diversity enforcement)
 - **Recency Boost**: 0.0 → 0.1 (temporal alignment)
 
+## 📸 Screenshots
+
+### Live Application Interface
+
+| Feature | Description |
+|---------|-------------|
+| 🏠 **Home Page** | Interactive recommendation interface with search controls, genre filters, and real-time results |
+| 📚 **Case Studies** | Curated examples showing how the system adapts to different user scenarios |
+| 📊 **Evaluation** | Performance metrics dashboard with interactive charts and visualizations |
+| ℹ️ **About** | Comprehensive project overview, methodology, and technical documentation |
+
+*Screenshots available in the `docs/` folder*
+
 ## 🎨 Visualizations
 
 The `visualizations/` folder contains 8 professional LinkedIn-ready charts:
@@ -149,13 +179,27 @@ The `report/` folder contains:
 3. **Error patterns** drive data-driven policy improvements
 4. **Production ready** with comprehensive evaluation framework
 
-## 🛠️ Dependencies
+## 🛠️ Tech Stack
 
-- Python 3.x
-- NumPy, Pandas, Scikit-learn
-- Matplotlib, Seaborn
-- PyTorch (for BERT embeddings)
-- Surprise (for collaborative filtering)
+### Backend & ML
+- **Python 3.11+** - Core programming language
+- **Pandas, NumPy** - Data manipulation and numerical computing
+- **Scikit-learn** - Machine learning algorithms and utilities
+- **Surprise** - Collaborative filtering library
+- **PyTorch** - BERT embeddings and deep learning
+
+### Visualization & UI
+- **Streamlit** - Web application framework
+- **Plotly** - Interactive charts and visualizations
+- **Matplotlib, Seaborn** - Statistical plotting
+
+### Data Processing
+- **PyArrow, FastParquet** - Efficient data storage and processing
+- **TF-IDF, BERT** - Text feature extraction
+
+### Deployment
+- **Streamlit Cloud** - Hosting and deployment
+- **GitHub Actions** - CI/CD pipeline
 
 ## 📝 License
 
@@ -163,13 +207,34 @@ This project is part of a portfolio demonstration and is available for education
 
 ## 🚀 Run Locally
 
-To run the Streamlit app locally:
+### Quick Start
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shaheenbehbehani/My_Projects.git
+   cd "My_Projects/Movie Recommendation Optimizer"
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Streamlit app**:
+   ```bash
+   streamlit run app/main.py
+   ```
+
+4. **Open your browser** to `http://localhost:8501`
+
+### Alternative: Using Conda
 
 ```bash
+conda create -n movie-recommender python=3.11
+conda activate movie-recommender
+pip install -r requirements.txt
 streamlit run app/main.py
 ```
-
-The app will be available at `http://localhost:8501`
 
 ## ☁️ Deploy on Streamlit Cloud
 
