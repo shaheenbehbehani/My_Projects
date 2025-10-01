@@ -8,6 +8,12 @@ A comprehensive hybrid recommendation system that combines content-based filteri
 
 The application is now live and ready to use! Explore interactive movie recommendations, case studies, performance metrics, and detailed project documentation.
 
+### Alternate Hosting
+
+**🔄 [Backup Host (Hugging Face Spaces)](https://huggingface.co/spaces/shaheenbehbehani/movie-recommendation-optimizer)**
+
+Same code, secondary host for reliability. This provides redundancy in case the primary Streamlit Cloud deployment experiences issues.
+
 ## 🎯 Project Overview
 
 This project implements a production-ready movie recommendation system with the following key features:
