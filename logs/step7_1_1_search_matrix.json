@@ -1,0 +1,776 @@
+{
+  "timestamp": "2025-10-24 10:56:33",
+  "summary": {
+    "total_tests": 48,
+    "passed_tests": 46,
+    "pass_rate": 0.9583333333333334,
+    "cold_performance": {
+      "avg_ms": 66.60839915275574,
+      "max_ms": 330.89303970336914,
+      "min_ms": 44.41332817077637
+    },
+    "warm_performance": {
+      "avg_ms": 0.011185805002848307,
+      "max_ms": 0.016927719116210938,
+      "min_ms": 0.009298324584960938
+    },
+    "pagination_validation": {
+      "pagination_issues": [],
+      "pagination_valid": true
+    }
+  },
+  "test_results": {
+    "title_inception_cold": {
+      "query": {
+        "title_query": "Inception"
+      },
+      "result_count": 1,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 330.89303970336914,
+      "elapsed_cpu_ms": 189.9440000000001,
+      "first_id": "tt1375666",
+      "last_id": "tt1375666",
+      "cache_hit": false,
+      "error": null
+    },
+    "title_matrix_cold": {
+      "query": {
+        "title_query": "matrix"
+      },
+      "result_count": 3,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 46.488046646118164,
+      "elapsed_cpu_ms": 49.67300000000008,
+      "first_id": "tt0133093",
+      "last_id": "tt1499960",
+      "cache_hit": false,
+      "error": null
+    },
+    "title_toy_story_cold": {
+      "query": {
+        "title_query": "toy story"
+      },
+      "result_count": 4,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 46.08488082885742,
+      "elapsed_cpu_ms": 50.037999999999805,
+      "first_id": "tt0114709",
+      "last_id": "tt1979376",
+      "cache_hit": false,
+      "error": null
+    },
+    "title_stopwords_cold": {
+      "query": {
+        "title_query": "the the"
+      },
+      "result_count": 50,
+      "expected_min": 0,
+      "passed": true,
+      "elapsed_wall_ms": 72.83592224121094,
+      "elapsed_cpu_ms": 76.68900000000001,
+      "first_id": "tt2980516",
+      "last_id": "tt0109830",
+      "cache_hit": false,
+      "error": null
+    },
+    "title_unicode_cold": {
+      "query": {
+        "title_query": "Am\u00e9lie"
+      },
+      "result_count": 0,
+      "expected_min": 0,
+      "passed": true,
+      "elapsed_wall_ms": 48.16317558288574,
+      "elapsed_cpu_ms": 50.61300000000024,
+      "first_id": null,
+      "last_id": null,
+      "cache_hit": false,
+      "error": null
+    },
+    "title_multi_lord_rings_cold": {
+      "query": {
+        "title_query": "lord rings"
+      },
+      "result_count": 3,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 48.89798164367676,
+      "elapsed_cpu_ms": 52.49700000000024,
+      "first_id": "tt0120737",
+      "last_id": "tt0167261",
+      "cache_hit": false,
+      "error": null
+    },
+    "title_multi_fast_furious_cold": {
+      "query": {
+        "title_query": "fast furious"
+      },
+      "result_count": 0,
+      "expected_min": 1,
+      "passed": false,
+      "elapsed_wall_ms": 47.608137130737305,
+      "elapsed_cpu_ms": 52.072999999999595,
+      "first_id": null,
+      "last_id": null,
+      "cache_hit": false,
+      "error": null
+    },
+    "genre_sci_fi_cold": {
+      "query": {
+        "genres": [
+          "sci-fi"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 70.94597816467285,
+      "elapsed_cpu_ms": 73.66600000000022,
+      "first_id": "tt0078748",
+      "last_id": "tt0096874",
+      "cache_hit": false,
+      "error": null
+    },
+    "genre_drama_cold": {
+      "query": {
+        "genres": [
+          "Drama"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 61.20920181274414,
+      "elapsed_cpu_ms": 63.74700000000022,
+      "first_id": "tt0021749",
+      "last_id": "tt0137523",
+      "cache_hit": false,
+      "error": null
+    },
+    "genre_animation_cold": {
+      "query": {
+        "genres": [
+          "Animation"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 52.351951599121094,
+      "elapsed_cpu_ms": 55.623999999999896,
+      "first_id": "tt0095327",
+      "last_id": "tt0808417",
+      "cache_hit": false,
+      "error": null
+    },
+    "genre_sci_fi_variant_cold": {
+      "query": {
+        "genres": [
+          "sci fi"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 50.11582374572754,
+      "elapsed_cpu_ms": 53.290999999999755,
+      "first_id": "tt0078748",
+      "last_id": "tt0096874",
+      "cache_hit": false,
+      "error": null
+    },
+    "provider_netflix_cold": {
+      "query": {
+        "provider": "Netflix"
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 70.77980041503906,
+      "elapsed_cpu_ms": 74.37199999999989,
+      "first_id": "tt0021749",
+      "last_id": "tt1675434",
+      "cache_hit": false,
+      "error": null
+    },
+    "provider_prime_cold": {
+      "query": {
+        "provider": "Prime"
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 50.72617530822754,
+      "elapsed_cpu_ms": 53.00400000000005,
+      "first_id": "tt0047396",
+      "last_id": "tt15049118",
+      "cache_hit": false,
+      "error": null
+    },
+    "provider_amazon_cold": {
+      "query": {
+        "provider": "Amazon"
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 50.05478858947754,
+      "elapsed_cpu_ms": 53.160000000000096,
+      "first_id": "tt0047396",
+      "last_id": "tt15049118",
+      "cache_hit": false,
+      "error": null
+    },
+    "provider_hulu_cold": {
+      "query": {
+        "provider": "Hulu"
+      },
+      "result_count": 50,
+      "expected_min": 5,
+      "passed": true,
+      "elapsed_wall_ms": 49.29709434509277,
+      "elapsed_cpu_ms": 52.382999999999846,
+      "first_id": "tt0053114",
+      "last_id": "tt9205986",
+      "cache_hit": false,
+      "error": null
+    },
+    "year_1990s_cold": {
+      "query": {
+        "year_range": [
+          1990,
+          1999
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 63.35902214050293,
+      "elapsed_cpu_ms": 66.01800000000013,
+      "first_id": "tt0099685",
+      "last_id": "tt0100332",
+      "cache_hit": false,
+      "error": null
+    },
+    "year_2000s_cold": {
+      "query": {
+        "year_range": [
+          2000,
+          2009
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 44.41332817077637,
+      "elapsed_cpu_ms": 47.95600000000011,
+      "first_id": "tt0120737",
+      "last_id": "tt0986329",
+      "cache_hit": false,
+      "error": null
+    },
+    "year_inverted_cold": {
+      "query": {
+        "year_range": [
+          2010,
+          2000
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 0,
+      "passed": true,
+      "elapsed_wall_ms": 45.14193534851074,
+      "elapsed_cpu_ms": 49.06100000000002,
+      "first_id": "tt0120737",
+      "last_id": "tt0383846",
+      "cache_hit": false,
+      "error": null
+    },
+    "combo_title_genre_cold": {
+      "query": {
+        "title_query": "Inception",
+        "genres": [
+          "sci-fi"
+        ]
+      },
+      "result_count": 1,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 48.62523078918457,
+      "elapsed_cpu_ms": 54.28999999999995,
+      "first_id": "tt1375666",
+      "last_id": "tt1375666",
+      "cache_hit": false,
+      "error": null
+    },
+    "combo_genre_provider_cold": {
+      "query": {
+        "genres": [
+          "Animation"
+        ],
+        "provider": "Disney+"
+      },
+      "result_count": 24,
+      "expected_min": 5,
+      "passed": true,
+      "elapsed_wall_ms": 74.45621490478516,
+      "elapsed_cpu_ms": 79.65299999999998,
+      "first_id": "tt5311514",
+      "last_id": "tt22868842",
+      "cache_hit": false,
+      "error": null
+    },
+    "combo_provider_year_cold": {
+      "query": {
+        "provider": "Netflix",
+        "year_range": [
+          2015,
+          2020
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 5,
+      "passed": true,
+      "elapsed_wall_ms": 49.95894432067871,
+      "elapsed_cpu_ms": 52.831999999999994,
+      "first_id": "tt10189514",
+      "last_id": "tt7286456",
+      "cache_hit": false,
+      "error": null
+    },
+    "combo_title_provider_year_cold": {
+      "query": {
+        "title_query": "toy story",
+        "provider": "Disney+",
+        "year_range": [
+          1990,
+          2010
+        ]
+      },
+      "result_count": 1,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 48.93374443054199,
+      "elapsed_cpu_ms": 52.221999999999994,
+      "first_id": "tt0120363",
+      "last_id": "tt0120363",
+      "cache_hit": false,
+      "error": null
+    },
+    "pagination_page1_cold": {
+      "query": {
+        "genres": [
+          "Action"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "result_count": 10,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 54.164886474609375,
+      "elapsed_cpu_ms": 57.69399999999969,
+      "first_id": "tt0043908",
+      "last_id": "tt0133093",
+      "cache_hit": false,
+      "error": null
+    },
+    "pagination_page2_cold": {
+      "query": {
+        "genres": [
+          "Action"
+        ],
+        "limit": 10,
+        "offset": 10
+      },
+      "result_count": 10,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 73.09627532958984,
+      "elapsed_cpu_ms": 76.06299999999999,
+      "first_id": "tt0172495",
+      "last_id": "tt0082971",
+      "cache_hit": false,
+      "error": null
+    },
+    "title_inception_warm": {
+      "query": {
+        "title_query": "Inception"
+      },
+      "result_count": 1,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 0.016927719116210938,
+      "elapsed_cpu_ms": 0.014999999999876223,
+      "first_id": "tt1375666",
+      "last_id": "tt1375666",
+      "cache_hit": true,
+      "error": null
+    },
+    "title_matrix_warm": {
+      "query": {
+        "title_query": "matrix"
+      },
+      "result_count": 3,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 0.01621246337890625,
+      "elapsed_cpu_ms": 0.016000000000016,
+      "first_id": "tt0133093",
+      "last_id": "tt1499960",
+      "cache_hit": true,
+      "error": null
+    },
+    "title_toy_story_warm": {
+      "query": {
+        "title_query": "toy story"
+      },
+      "result_count": 4,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 0.012874603271484375,
+      "elapsed_cpu_ms": 0.011999999999900979,
+      "first_id": "tt0114709",
+      "last_id": "tt1979376",
+      "cache_hit": true,
+      "error": null
+    },
+    "title_stopwords_warm": {
+      "query": {
+        "title_query": "the the"
+      },
+      "result_count": 50,
+      "expected_min": 0,
+      "passed": true,
+      "elapsed_wall_ms": 0.010967254638671875,
+      "elapsed_cpu_ms": 0.0109999999997612,
+      "first_id": "tt2980516",
+      "last_id": "tt0109830",
+      "cache_hit": true,
+      "error": null
+    },
+    "title_unicode_warm": {
+      "query": {
+        "title_query": "Am\u00e9lie"
+      },
+      "result_count": 0,
+      "expected_min": 0,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.008999999999925734,
+      "first_id": null,
+      "last_id": null,
+      "cache_hit": true,
+      "error": null
+    },
+    "title_multi_lord_rings_warm": {
+      "query": {
+        "title_query": "lord rings"
+      },
+      "result_count": 3,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0120737",
+      "last_id": "tt0167261",
+      "cache_hit": true,
+      "error": null
+    },
+    "title_multi_fast_furious_warm": {
+      "query": {
+        "title_query": "fast furious"
+      },
+      "result_count": 0,
+      "expected_min": 1,
+      "passed": false,
+      "elapsed_wall_ms": 0.011920928955078125,
+      "elapsed_cpu_ms": 0.012000000000345068,
+      "first_id": null,
+      "last_id": null,
+      "cache_hit": true,
+      "error": null
+    },
+    "genre_sci_fi_warm": {
+      "query": {
+        "genres": [
+          "sci-fi"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.008999999999925734,
+      "first_id": "tt0078748",
+      "last_id": "tt0096874",
+      "cache_hit": true,
+      "error": null
+    },
+    "genre_drama_warm": {
+      "query": {
+        "genres": [
+          "Drama"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.010967254638671875,
+      "elapsed_cpu_ms": 0.0109999999997612,
+      "first_id": "tt0021749",
+      "last_id": "tt0137523",
+      "cache_hit": true,
+      "error": null
+    },
+    "genre_animation_warm": {
+      "query": {
+        "genres": [
+          "Animation"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.010967254638671875,
+      "elapsed_cpu_ms": 0.01100000000020529,
+      "first_id": "tt0095327",
+      "last_id": "tt0808417",
+      "cache_hit": true,
+      "error": null
+    },
+    "genre_sci_fi_variant_warm": {
+      "query": {
+        "genres": [
+          "sci fi"
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.010251998901367188,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0078748",
+      "last_id": "tt0096874",
+      "cache_hit": true,
+      "error": null
+    },
+    "provider_netflix_warm": {
+      "query": {
+        "provider": "Netflix"
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.009000000000369823,
+      "first_id": "tt0021749",
+      "last_id": "tt1675434",
+      "cache_hit": true,
+      "error": null
+    },
+    "provider_prime_warm": {
+      "query": {
+        "provider": "Prime"
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.009999999999621423,
+      "first_id": "tt0047396",
+      "last_id": "tt15049118",
+      "cache_hit": true,
+      "error": null
+    },
+    "provider_amazon_warm": {
+      "query": {
+        "provider": "Amazon"
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.009775161743164062,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0047396",
+      "last_id": "tt15049118",
+      "cache_hit": true,
+      "error": null
+    },
+    "provider_hulu_warm": {
+      "query": {
+        "provider": "Hulu"
+      },
+      "result_count": 50,
+      "expected_min": 5,
+      "passed": true,
+      "elapsed_wall_ms": 0.009298324584960938,
+      "elapsed_cpu_ms": 0.008999999999925734,
+      "first_id": "tt0053114",
+      "last_id": "tt9205986",
+      "cache_hit": true,
+      "error": null
+    },
+    "year_1990s_warm": {
+      "query": {
+        "year_range": [
+          1990,
+          1999
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.009775161743164062,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0099685",
+      "last_id": "tt0100332",
+      "cache_hit": true,
+      "error": null
+    },
+    "year_2000s_warm": {
+      "query": {
+        "year_range": [
+          2000,
+          2009
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.013113021850585938,
+      "elapsed_cpu_ms": 0.012000000000345068,
+      "first_id": "tt0120737",
+      "last_id": "tt0986329",
+      "cache_hit": true,
+      "error": null
+    },
+    "year_inverted_warm": {
+      "query": {
+        "year_range": [
+          2010,
+          2000
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 0,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0120737",
+      "last_id": "tt0383846",
+      "cache_hit": true,
+      "error": null
+    },
+    "combo_title_genre_warm": {
+      "query": {
+        "title_query": "Inception",
+        "genres": [
+          "sci-fi"
+        ]
+      },
+      "result_count": 1,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 0.010013580322265625,
+      "elapsed_cpu_ms": 0.0109999999997612,
+      "first_id": "tt1375666",
+      "last_id": "tt1375666",
+      "cache_hit": true,
+      "error": null
+    },
+    "combo_genre_provider_warm": {
+      "query": {
+        "genres": [
+          "Animation"
+        ],
+        "provider": "Disney+"
+      },
+      "result_count": 24,
+      "expected_min": 5,
+      "passed": true,
+      "elapsed_wall_ms": 0.010967254638671875,
+      "elapsed_cpu_ms": 0.0109999999997612,
+      "first_id": "tt5311514",
+      "last_id": "tt22868842",
+      "cache_hit": true,
+      "error": null
+    },
+    "combo_provider_year_warm": {
+      "query": {
+        "provider": "Netflix",
+        "year_range": [
+          2015,
+          2020
+        ]
+      },
+      "result_count": 50,
+      "expected_min": 5,
+      "passed": true,
+      "elapsed_wall_ms": 0.010967254638671875,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt10189514",
+      "last_id": "tt7286456",
+      "cache_hit": true,
+      "error": null
+    },
+    "combo_title_provider_year_warm": {
+      "query": {
+        "title_query": "toy story",
+        "provider": "Disney+",
+        "year_range": [
+          1990,
+          2010
+        ]
+      },
+      "result_count": 1,
+      "expected_min": 1,
+      "passed": true,
+      "elapsed_wall_ms": 0.010967254638671875,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0120363",
+      "last_id": "tt0120363",
+      "cache_hit": true,
+      "error": null
+    },
+    "pagination_page1_warm": {
+      "query": {
+        "genres": [
+          "Action"
+        ],
+        "limit": 10,
+        "offset": 0
+      },
+      "result_count": 10,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.012636184692382812,
+      "elapsed_cpu_ms": 0.011999999999900979,
+      "first_id": "tt0043908",
+      "last_id": "tt0133093",
+      "cache_hit": true,
+      "error": null
+    },
+    "pagination_page2_warm": {
+      "query": {
+        "genres": [
+          "Action"
+        ],
+        "limit": 10,
+        "offset": 10
+      },
+      "result_count": 10,
+      "expected_min": 10,
+      "passed": true,
+      "elapsed_wall_ms": 0.009775161743164062,
+      "elapsed_cpu_ms": 0.010000000000065512,
+      "first_id": "tt0172495",
+      "last_id": "tt0082971",
+      "cache_hit": true,
+      "error": null
+    }
+  }
+}

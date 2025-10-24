@@ -1,0 +1,156 @@
+2025-10-24 10:56:32,234 - INFO - Starting Step 7.1.1: Search candidates debug harness
+2025-10-24 10:56:32,234 - INFO - === COLD TEST RUN ===
+2025-10-24 10:56:32,234 - INFO - COLD TEST: title_inception - {'title_query': 'Inception'}
+2025-10-24 10:56:32,566 - INFO -   Results: 1 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:32,566 - INFO -   Elapsed: 330.9ms wall, 189.9ms CPU
+2025-10-24 10:56:32,566 - INFO - COLD TEST: title_matrix - {'title_query': 'matrix'}
+2025-10-24 10:56:32,613 - INFO -   Results: 3 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:32,613 - INFO -   Elapsed: 46.5ms wall, 49.7ms CPU
+2025-10-24 10:56:32,613 - INFO - COLD TEST: title_toy_story - {'title_query': 'toy story'}
+2025-10-24 10:56:32,659 - INFO -   Results: 4 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:32,659 - INFO -   Elapsed: 46.1ms wall, 50.0ms CPU
+2025-10-24 10:56:32,660 - INFO - COLD TEST: title_stopwords - {'title_query': 'the the'}
+2025-10-24 10:56:32,733 - INFO -   Results: 50 (expected ≥0) - ✅ PASS
+2025-10-24 10:56:32,733 - INFO -   Elapsed: 72.8ms wall, 76.7ms CPU
+2025-10-24 10:56:32,733 - INFO - COLD TEST: title_unicode - {'title_query': 'Amélie'}
+2025-10-24 10:56:32,781 - INFO -   Results: 0 (expected ≥0) - ✅ PASS
+2025-10-24 10:56:32,781 - INFO -   Elapsed: 48.2ms wall, 50.6ms CPU
+2025-10-24 10:56:32,781 - INFO - COLD TEST: title_multi_lord_rings - {'title_query': 'lord rings'}
+2025-10-24 10:56:32,830 - INFO -   Results: 3 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:32,830 - INFO -   Elapsed: 48.9ms wall, 52.5ms CPU
+2025-10-24 10:56:32,831 - INFO - COLD TEST: title_multi_fast_furious - {'title_query': 'fast furious'}
+2025-10-24 10:56:32,878 - INFO -   Results: 0 (expected ≥1) - ❌ FAIL
+2025-10-24 10:56:32,878 - INFO -   Elapsed: 47.6ms wall, 52.1ms CPU
+2025-10-24 10:56:32,878 - INFO - COLD TEST: genre_sci_fi - {'genres': ['sci-fi']}
+2025-10-24 10:56:32,950 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:32,950 - INFO -   Elapsed: 70.9ms wall, 73.7ms CPU
+2025-10-24 10:56:32,950 - INFO - COLD TEST: genre_drama - {'genres': ['Drama']}
+2025-10-24 10:56:33,011 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,011 - INFO -   Elapsed: 61.2ms wall, 63.7ms CPU
+2025-10-24 10:56:33,011 - INFO - COLD TEST: genre_animation - {'genres': ['Animation']}
+2025-10-24 10:56:33,064 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,064 - INFO -   Elapsed: 52.4ms wall, 55.6ms CPU
+2025-10-24 10:56:33,064 - INFO - COLD TEST: genre_sci_fi_variant - {'genres': ['sci fi']}
+2025-10-24 10:56:33,115 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,115 - INFO -   Elapsed: 50.1ms wall, 53.3ms CPU
+2025-10-24 10:56:33,115 - INFO - COLD TEST: provider_netflix - {'provider': 'Netflix'}
+2025-10-24 10:56:33,186 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,186 - INFO -   Elapsed: 70.8ms wall, 74.4ms CPU
+2025-10-24 10:56:33,186 - INFO - COLD TEST: provider_prime - {'provider': 'Prime'}
+2025-10-24 10:56:33,237 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,237 - INFO -   Elapsed: 50.7ms wall, 53.0ms CPU
+2025-10-24 10:56:33,237 - INFO - COLD TEST: provider_amazon - {'provider': 'Amazon'}
+2025-10-24 10:56:33,288 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,288 - INFO -   Elapsed: 50.1ms wall, 53.2ms CPU
+2025-10-24 10:56:33,288 - INFO - COLD TEST: provider_hulu - {'provider': 'Hulu'}
+2025-10-24 10:56:33,337 - INFO -   Results: 50 (expected ≥5) - ✅ PASS
+2025-10-24 10:56:33,337 - INFO -   Elapsed: 49.3ms wall, 52.4ms CPU
+2025-10-24 10:56:33,337 - INFO - COLD TEST: year_1990s - {'year_range': (1990, 1999)}
+2025-10-24 10:56:33,401 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,401 - INFO -   Elapsed: 63.4ms wall, 66.0ms CPU
+2025-10-24 10:56:33,401 - INFO - COLD TEST: year_2000s - {'year_range': (2000, 2009)}
+2025-10-24 10:56:33,446 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,446 - INFO -   Elapsed: 44.4ms wall, 48.0ms CPU
+2025-10-24 10:56:33,446 - INFO - COLD TEST: year_inverted - {'year_range': (2010, 2000)}
+2025-10-24 10:56:33,492 - INFO -   Results: 50 (expected ≥0) - ✅ PASS
+2025-10-24 10:56:33,492 - INFO -   Elapsed: 45.1ms wall, 49.1ms CPU
+2025-10-24 10:56:33,492 - INFO - COLD TEST: combo_title_genre - {'title_query': 'Inception', 'genres': ['sci-fi']}
+2025-10-24 10:56:33,541 - INFO -   Results: 1 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,541 - INFO -   Elapsed: 48.6ms wall, 54.3ms CPU
+2025-10-24 10:56:33,541 - INFO - COLD TEST: combo_genre_provider - {'genres': ['Animation'], 'provider': 'Disney+'}
+2025-10-24 10:56:33,616 - INFO -   Results: 24 (expected ≥5) - ✅ PASS
+2025-10-24 10:56:33,616 - INFO -   Elapsed: 74.5ms wall, 79.7ms CPU
+2025-10-24 10:56:33,616 - INFO - COLD TEST: combo_provider_year - {'provider': 'Netflix', 'year_range': (2015, 2020)}
+2025-10-24 10:56:33,666 - INFO -   Results: 50 (expected ≥5) - ✅ PASS
+2025-10-24 10:56:33,667 - INFO -   Elapsed: 50.0ms wall, 52.8ms CPU
+2025-10-24 10:56:33,667 - INFO - COLD TEST: combo_title_provider_year - {'title_query': 'toy story', 'provider': 'Disney+', 'year_range': (1990, 2010)}
+2025-10-24 10:56:33,716 - INFO -   Results: 1 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,716 - INFO -   Elapsed: 48.9ms wall, 52.2ms CPU
+2025-10-24 10:56:33,716 - INFO - COLD TEST: pagination_page1 - {'genres': ['Action'], 'limit': 10, 'offset': 0}
+2025-10-24 10:56:33,770 - INFO -   Results: 10 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,770 - INFO -   Elapsed: 54.2ms wall, 57.7ms CPU
+2025-10-24 10:56:33,770 - INFO - COLD TEST: pagination_page2 - {'genres': ['Action'], 'limit': 10, 'offset': 10}
+2025-10-24 10:56:33,844 - INFO -   Results: 10 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,844 - INFO -   Elapsed: 73.1ms wall, 76.1ms CPU
+2025-10-24 10:56:33,844 - INFO - === WARM TEST RUN ===
+2025-10-24 10:56:33,844 - INFO - WARM TEST: title_inception - {'title_query': 'Inception'}
+2025-10-24 10:56:33,844 - INFO -   Results: 1 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,844 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,844 - INFO - WARM TEST: title_matrix - {'title_query': 'matrix'}
+2025-10-24 10:56:33,845 - INFO -   Results: 3 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,845 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,845 - INFO - WARM TEST: title_toy_story - {'title_query': 'toy story'}
+2025-10-24 10:56:33,845 - INFO -   Results: 4 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,845 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,845 - INFO - WARM TEST: title_stopwords - {'title_query': 'the the'}
+2025-10-24 10:56:33,845 - INFO -   Results: 50 (expected ≥0) - ✅ PASS
+2025-10-24 10:56:33,845 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,845 - INFO - WARM TEST: title_unicode - {'title_query': 'Amélie'}
+2025-10-24 10:56:33,845 - INFO -   Results: 0 (expected ≥0) - ✅ PASS
+2025-10-24 10:56:33,845 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,845 - INFO - WARM TEST: title_multi_lord_rings - {'title_query': 'lord rings'}
+2025-10-24 10:56:33,846 - INFO -   Results: 3 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,846 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,846 - INFO - WARM TEST: title_multi_fast_furious - {'title_query': 'fast furious'}
+2025-10-24 10:56:33,846 - INFO -   Results: 0 (expected ≥1) - ❌ FAIL
+2025-10-24 10:56:33,846 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,846 - INFO - WARM TEST: genre_sci_fi - {'genres': ['sci-fi']}
+2025-10-24 10:56:33,846 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,846 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,846 - INFO - WARM TEST: genre_drama - {'genres': ['Drama']}
+2025-10-24 10:56:33,846 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,847 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,847 - INFO - WARM TEST: genre_animation - {'genres': ['Animation']}
+2025-10-24 10:56:33,847 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,847 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,847 - INFO - WARM TEST: genre_sci_fi_variant - {'genres': ['sci fi']}
+2025-10-24 10:56:33,847 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,847 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,847 - INFO - WARM TEST: provider_netflix - {'provider': 'Netflix'}
+2025-10-24 10:56:33,847 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,847 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,847 - INFO - WARM TEST: provider_prime - {'provider': 'Prime'}
+2025-10-24 10:56:33,848 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,848 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,848 - INFO - WARM TEST: provider_amazon - {'provider': 'Amazon'}
+2025-10-24 10:56:33,848 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,848 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,848 - INFO - WARM TEST: provider_hulu - {'provider': 'Hulu'}
+2025-10-24 10:56:33,848 - INFO -   Results: 50 (expected ≥5) - ✅ PASS
+2025-10-24 10:56:33,848 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,848 - INFO - WARM TEST: year_1990s - {'year_range': (1990, 1999)}
+2025-10-24 10:56:33,848 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,848 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,849 - INFO - WARM TEST: year_2000s - {'year_range': (2000, 2009)}
+2025-10-24 10:56:33,849 - INFO -   Results: 50 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,849 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,849 - INFO - WARM TEST: year_inverted - {'year_range': (2010, 2000)}
+2025-10-24 10:56:33,849 - INFO -   Results: 50 (expected ≥0) - ✅ PASS
+2025-10-24 10:56:33,849 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,849 - INFO - WARM TEST: combo_title_genre - {'title_query': 'Inception', 'genres': ['sci-fi']}
+2025-10-24 10:56:33,849 - INFO -   Results: 1 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,849 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,849 - INFO - WARM TEST: combo_genre_provider - {'genres': ['Animation'], 'provider': 'Disney+'}
+2025-10-24 10:56:33,850 - INFO -   Results: 24 (expected ≥5) - ✅ PASS
+2025-10-24 10:56:33,850 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,850 - INFO - WARM TEST: combo_provider_year - {'provider': 'Netflix', 'year_range': (2015, 2020)}
+2025-10-24 10:56:33,850 - INFO -   Results: 50 (expected ≥5) - ✅ PASS
+2025-10-24 10:56:33,850 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,850 - INFO - WARM TEST: combo_title_provider_year - {'title_query': 'toy story', 'provider': 'Disney+', 'year_range': (1990, 2010)}
+2025-10-24 10:56:33,850 - INFO -   Results: 1 (expected ≥1) - ✅ PASS
+2025-10-24 10:56:33,850 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,850 - INFO - WARM TEST: pagination_page1 - {'genres': ['Action'], 'limit': 10, 'offset': 0}
+2025-10-24 10:56:33,851 - INFO -   Results: 10 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,851 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,851 - INFO - WARM TEST: pagination_page2 - {'genres': ['Action'], 'limit': 10, 'offset': 10}
+2025-10-24 10:56:33,851 - INFO -   Results: 10 (expected ≥10) - ✅ PASS
+2025-10-24 10:56:33,851 - INFO -   Elapsed: 0.0ms wall, 0.0ms CPU
+2025-10-24 10:56:33,852 - INFO - === SUMMARY ===
+2025-10-24 10:56:33,852 - INFO - Total tests: 48
+2025-10-24 10:56:33,852 - INFO - Passed tests: 46
+2025-10-24 10:56:33,852 - INFO - Pass rate: 95.8%
+2025-10-24 10:56:33,852 - INFO - Cold performance: 66.6ms avg
+2025-10-24 10:56:33,853 - INFO - Warm performance: 0.0ms avg
+2025-10-24 10:56:33,853 - INFO - Pagination valid: True
+2025-10-24 10:56:33,853 - INFO - ✅ Debug harness completed successfully
+2025-10-24 10:56:33,853 - INFO - Results saved to logs/step7_1_1_search_matrix.json
