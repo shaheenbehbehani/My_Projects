@@ -5,10 +5,10 @@ APP_DESCRIPTION = "Hybrid recommendation system combining content-based and coll
 
 # Feature flags (placeholders for future use)
 FEATURE_FLAGS = {
-    "enable_search": False,
-    "enable_visualizations": False,
-    "enable_case_studies": False,
-    "enable_evaluation": False
+    "enable_search": True,
+    "enable_visualizations": True,
+    "enable_case_studies": True,
+    "enable_evaluation": True  # Enabled when artifacts are present
 }
 
 # Navigation items
